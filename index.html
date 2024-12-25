@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelSphere</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">TravelSphere</a>
+            <div class="nav-links">
+                <a href="#destinations">Destinations</a>
+                <a href="#packages">Packages</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Next Adventure</h1>
+            <p>Explore breathtaking destinations around the world with our curated travel experiences.</p>
+            <a href="#destinations" class="btn">Explore Destinations</a>
+        </div>
+    </section>
+
+    <section class="booking-form">
+        <div class="form-container">
+            <form class="quote-form">
+                <h2>Get Free Quote</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="destination">Destination</label>
+                        <select id="destination" required>
+                            <option value="">Select Destination</option>
+                            <option value="goa">Goa</option>
+                            <option value="mumbai">Mumbai</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="delhi">Kerela</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="quote-name">Name</label>
+                        <input type="text" id="quote-name" placeholder="Enter Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quote-phone">Phone</label>
+                        <input type="tel" id="quote-phone" placeholder="Enter Mobile Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quote-email">Email</label>
+                        <input type="email" id="quote-email" placeholder="Enter Email ID" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quote-city">City</label>
+                        <input type="text" id="quote-city" placeholder="Enter City" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="journey-date">Journey Date</label>
+                        <input type="date" id="journey-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="persons">No of Person</label>
+                        <select id="persons" required>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="children">No of Children</label>
+                        <select id="children" required>
+                            <option value="00">00</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="enquiry-btn">Enquiry Now</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="process">
+        <div class="process-grid">
+            <div class="process-step">
+                <div class="step-number">01</div>
+                <h3 class="step-title highlight">DISCOVER & DREAM</h3>
+                <p class="step-description">Share your travel aspirations and let us inspire you with possibilities.</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">02</div>
+                <h3 class="step-title highlight">PLAN & PERSONALIZE</h3>
+                <p class="step-description">Together, we tailor your itinerary, ensuring every detail meets your desires.</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">03</div>
+                <h3 class="step-title highlight">EXPERIENCE & ENJOY</h3>
+                <p class="step-description">Embark on your journey, supported by our 24/7 assistance, and savor every moment.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinations" class="destinations">
+        <div class="section-title">
+            <h2>Popular Destinations</h2>
+        </div>
+        <div class="destinations-grid">
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1589308078059-be1415eab4c3" alt="Bali">
+                <div class="card-content">
+                    <h3>Bali, Indonesia</h3>
+                    <p>Experience the perfect blend of culture, nature, and relaxation.</p>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2" alt="Santorini">
+                <div class="card-content">
+                    <h3>Santorini, Greece</h3>
+                    <p>Discover whitewashed buildings and stunning Mediterranean views.</p>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1516815231560-8f41ec531527" alt="Machu Picchu">
+                <div class="card-content">
+                    <h3>Machu Picchu, Peru</h3>
+                    <p>Explore ancient Incan ruins in the heart of the Andes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="packages">
+        <div class="packages-container">
+            <div class="section-title">
+                <h2>Travel Packages</h2>
+            </div>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <h3>Weekend Getaway</h3>
+                    <div class="price">₹5999</div>
+                    <ul>
+                        <li>3 days, 2 nights</li>
+                        <li>Luxury accommodation</li>
+                        <li>Guided tours</li>
+                        <li>Airport transfers</li>
+                    </ul>
+                    <a href="#contact" class="btn">Book Now</a>
+                </div>
+                <div class="package-card">
+                    <h3>Adventure Package</h3>
+                    <div class="price">₹7999</div>
+                    <ul>
+                        <li>5 days, 4 nights</li>
+                        <li>Adventure activities</li>
+                        <li>All meals included</li>
+                        <li>Expert guides</li>
+                    </ul>
+                    <a href="#contact" class="btn">Book Now</a>
+                </div>
+                <div class="package-card">
+                    <h3>Luxury Escape</h3>
+                    <div class="price">₹8999</div>
+                    <ul>
+                        <li>7 days, 6 nights</li>
+                        <li>5-star accommodation</li>
+                        <li>Private tours</li>
+                        <li>Premium experiences</li>
+                    </ul>
+                    <a href="#contact" class="btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h2>Contact Us</h2>
+        </div>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Wanderlust is your trusted partner for unforgettable travel experiences around the world.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul class="footer-links">
+                    <li>Email: info@TravelSphere.com</li>
+                    <li>Phone: +91 8994789489</li>
+                    
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
