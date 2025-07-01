@@ -1,7 +1,5 @@
 # 🌍 Travel Sphere
 
-**Live Demo:** [https://yuvi-travel-sphere.netlify.app/]((https://travel-with-me-sphere.netlify.app/))
-
 Travel Sphere is a simple and elegant static travel website built using just HTML and CSS. 
 It showcases beautiful travel destinations with a clean layout and responsive design.
 
